@@ -8,7 +8,17 @@
 
 import UIKit
 
+
+/// Manages a list of items scrolling horizontally.
+/// 
+/// Scrolling rows have a title label and list of items as a `UICollectionView`.
+///
+/// `ScrollingRowCell`s automatically register a custom `UICollectionViewCell` and pass through UICollectionViewDataSource methods via callbacks.
+///
+/// The system works by passing a `didSelect` callback from the parent view controller. This callback is fired during the `UICollectionViewDelegate` didSelectItemAt:indexPath method.
 public class ScrollingRowCell<T, Cell: UICollectionViewCell>: UICollectionViewCell, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+    
+    // MARK: - Layout & Formatting
     
     var layout: GridLayout! {
         didSet {
@@ -17,11 +27,7 @@ public class ScrollingRowCell<T, Cell: UICollectionViewCell>: UICollectionViewCe
         }
     }
     
-    var row: Row<T>!
-    var configure: (T, Cell) -> () = { _, _ in }
-    
-    public var didSelect: (T) -> () = { _ in }
-    
+    /// A section label for the row.
     let nameLabel: UILabel = {
         let label = UILabel()
         label.text = "Section Name"
@@ -31,6 +37,7 @@ public class ScrollingRowCell<T, Cell: UICollectionViewCell>: UICollectionViewCe
         return label
     }()
     
+    /// The horizontally scrolling collection view that manages the items for the provided row.
     let itemsCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
@@ -40,7 +47,19 @@ public class ScrollingRowCell<T, Cell: UICollectionViewCell>: UICollectionViewCe
         return collectionView
     }()
     
-    func setupView() {
+    /// A callback for configuring the item of type `T` and a collection view generic subclass of UICollectionViewCell.
+    var configure: (T, Cell) -> () = { _, _ in }
+    
+    /// The data source for this row.
+    var row: Row<T>!
+    
+    // MARK: - Item Selection
+    
+    /// A callback for reacting to when a user selects an item in the row.
+    public var didSelect: (T) -> () = { _ in }
+    
+    /// Sets up the label on top of the collection view.
+    private func setupView() {
         
         addSubview(itemsCollectionView)
         addSubview(nameLabel)
@@ -57,6 +76,8 @@ public class ScrollingRowCell<T, Cell: UICollectionViewCell>: UICollectionViewCe
         
     }
     
+    // MARK: - Intializers
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
@@ -65,6 +86,8 @@ public class ScrollingRowCell<T, Cell: UICollectionViewCell>: UICollectionViewCe
     public required init?(coder aDecoder: NSCoder) {
         fatalError("Implement in subclass")
     }
+    
+    // MARK: - UICollectionViewDataSource
     
     public func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
@@ -75,7 +98,7 @@ public class ScrollingRowCell<T, Cell: UICollectionViewCell>: UICollectionViewCe
     }
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: layout.rowWidth, height: self.itemsCollectionView.frame.height)
+        return CGSize(width: layout.itemWidth, height: self.itemsCollectionView.frame.height)
     }
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
