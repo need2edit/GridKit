@@ -14,7 +14,7 @@
     <a title="UICollectionView Extension Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (50% documented)</p>
+        <p><a href="../index.html"> Docs</a> (62% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -94,8 +94,24 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Syntatic sugar for registering <code>UICollectionViewCell</code>s.</p>
 
+<p>The cell is registered using the name of the class as the reuse identifier. For example, UICollectionViewCell would be registered using the cell identifier <q>UICollectionViewCell</q></p>
+
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    Parameter _: A subclass of <code>UICollectionView</code> to register on the collection.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">register</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">UICollectionViewCell</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="kt">T</span><span class="o">.</span><span class="k">Type</span><span class="p">)</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -113,8 +129,24 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Syntatic sugar for registering <code>UICollectionReusableView</code>s.</p>
 
+<p>The cell is registered using the name of the class as the reuse identifier. For example, UICollectionReusableView would be registered using the cell identifier <q>UICollectionReusableView</q></p>
+
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    Parameter _: A subclass of <code>UICollectionView</code> to register on the collection.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">registerSupplementaryViewOfKind</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">UICollectionReusableView</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="kt">T</span><span class="o">.</span><span class="k">Type</span><span class="p">,</span> <span class="nv">kind</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -132,7 +164,57 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Syntatic sugar for dequeuing a type safe reusable cell at a given indexPath.</p>
+
+<pre class="highlight plaintext"><code>let cell: MyCustomCell = collectionView.dequeueReusableCell(forIndexPath: path)
+// returns a cell of type MyCustomCell
+
+</code></pre>
+
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    Parameter indexPath: the indexPath to dequeue the cell.
+
+</div>
+
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    A cell of type <code>UICollectionViewCell</code> cast to the inferred type.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">dequeueReusableCell</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">UICollectionViewCell</span><span class="o">&gt;</span><span class="p">(</span><span class="n">forIndexPath</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">T</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the indexPath to dequeue the cell.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A cell of type <code>UICollectionViewCell</code> cast to the inferred type.</p>
 
                       </div>
                     </section>
@@ -151,7 +233,57 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Syntatic sugar for dequeuing a type safe supplementary cell at a given indexPath.</p>
+
+<pre class="highlight plaintext"><code>let header: MyCustomHeader = collectionView.dequeueReusableSupplementaryViewOfKind...
+// returns a cell of type MyCustomHeader
+
+</code></pre>
+
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    Parameter indexPath: the indexPath to dequeue the cell.
+
+</div>
+
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    A cell of type <code>UICollectionViewCell</code> cast to the inferred type.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">dequeueReusableSupplementaryViewOfKind</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">UICollectionReusableView</span><span class="o">&gt;</span><span class="p">(</span><span class="n">forIndexPath</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="nv">kind</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">T</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the indexPath to dequeue the cell.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A cell of type <code>UICollectionViewCell</code> cast to the inferred type.</p>
 
                       </div>
                     </section>

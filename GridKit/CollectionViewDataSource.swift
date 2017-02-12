@@ -19,7 +19,7 @@ open class GridCollectionDataSource<T, Cell: UICollectionViewCell>: NSObject, UI
     
     var layout: GridLayout
     
-    var grid: Grid<T>
+    private var grid: Grid<T>
     var collectionView: UICollectionView
     var configure: (T, Cell) -> ()
     

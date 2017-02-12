@@ -52,9 +52,7 @@ extension UICollectionView {
     /// Syntatic sugar for dequeuing a type safe supplementary cell at a given indexPath.
     ///
     /// ```
-    /// let header: MyCustomHeader = collectionView.dequeueReusableSupplementaryViewOfKind...
-    /// // returns a cell of type MyCustomHeader
-    ///
+    /// let header: MyCustomHeader = collectionView.dequeueReusableSupplementaryViewOfKind... // returns a cell of type MyCustomHeader
     /// ```
     ///
     /// - Parameter indexPath: the indexPath to dequeue the cell.
@@ -80,9 +78,7 @@ extension UITableView {
     /// Syntatic sugar for dequeuing a type safe reusable cell at a given indexPath.
     ///
     /// ```
-    /// let cell: MyCustomCell = tableView(forIndexPath: path)
-    /// // returns a cell of type MyCustomCell
-    ///
+    /// let cell: MyCustomCell = tableView(forIndexPath: path) // returns a cell of type MyCustomCell
     /// ```
     ///
     /// - Parameter indexPath: the indexPath to dequeue the cell.

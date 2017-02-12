@@ -11,14 +11,14 @@ import GridKit
 extension GridLayout {
     
     /// Defaults for a netflix style layout and color scheme.
-    public static let netflix = GridLayout(tintColor: #colorLiteral(red: 0.8979414105, green: 0.8980956078, blue: 0.8979316354, alpha: 1), highlightColor: #colorLiteral(red: 0.8924849629, green: 0.03092195839, blue: 0.08941084892, alpha: 1), rowWidth: 110, rowHeight: 160, sectionHeaderFont: UIFont.boldSystemFont(ofSize: 17), sectionHeaderTextColor: #colorLiteral(red: 0.8979414105, green: 0.8980956078, blue: 0.8979316354, alpha: 1), backgroundColor: #colorLiteral(red: 0.09410236031, green: 0.09412645549, blue: 0.09410081059, alpha: 1))
+    public static let netflix = GridLayout(tintColor: #colorLiteral(red: 0.8979414105, green: 0.8980956078, blue: 0.8979316354, alpha: 1), highlightColor: #colorLiteral(red: 0.8924849629, green: 0.03092195839, blue: 0.08941084892, alpha: 1), itemWidth: 110, itemSpacing: 8.0, rowHeight: 160, sectionHeaderFont: UIFont.boldSystemFont(ofSize: 17), sectionHeaderTextColor: #colorLiteral(red: 0.8979414105, green: 0.8980956078, blue: 0.8979316354, alpha: 1), backgroundColor: #colorLiteral(red: 0.09410236031, green: 0.09412645549, blue: 0.09410081059, alpha: 1))
     
     
     /// Defaults for a HBONow style layout and color scheme.
-    public static let hbo = GridLayout(tintColor: #colorLiteral(red: 0.8979414105, green: 0.8980956078, blue: 0.8979316354, alpha: 1), highlightColor: #colorLiteral(red: 0.8979414105, green: 0.8980956078, blue: 0.8979316354, alpha: 1), rowWidth: 110, rowHeight: 160, sectionHeaderFont: UIFont.boldSystemFont(ofSize: 17), sectionHeaderTextColor: #colorLiteral(red: 0.8979414105, green: 0.8980956078, blue: 0.8979316354, alpha: 1), backgroundColor: #colorLiteral(red: 0.09410236031, green: 0.09412645549, blue: 0.09410081059, alpha: 1))
+    public static let hbo = GridLayout(tintColor: #colorLiteral(red: 0.8979414105, green: 0.8980956078, blue: 0.8979316354, alpha: 1), highlightColor: #colorLiteral(red: 0.8979414105, green: 0.8980956078, blue: 0.8979316354, alpha: 1), itemWidth: 110, itemSpacing: 8.0, rowHeight: 160, sectionHeaderFont: UIFont.boldSystemFont(ofSize: 17), sectionHeaderTextColor: #colorLiteral(red: 0.8979414105, green: 0.8980956078, blue: 0.8979316354, alpha: 1), backgroundColor: #colorLiteral(red: 0.09410236031, green: 0.09412645549, blue: 0.09410081059, alpha: 1))
     
     /// Defaults for an App Store like layout and color scheme.
-    public static let appStore = GridLayout(tintColor: .blue, highlightColor: .blue, rowWidth: 95, rowHeight: 166, sectionHeaderFont: UIFont.systemFont(ofSize: 14.0, weight: UIFontWeightRegular), sectionHeaderTextColor: .black, backgroundColor: .white)
+    public static let appStore = GridLayout(tintColor: .blue, highlightColor: .blue, itemWidth: 95, itemSpacing: 8.0, rowHeight: 166, sectionHeaderFont: UIFont.systemFont(ofSize: 14.0, weight: UIFontWeightRegular), sectionHeaderTextColor: .black, backgroundColor: .white)
     
 }
 
