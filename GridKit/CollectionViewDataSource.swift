@@ -16,6 +16,7 @@ import UIKit
 /// Set the `didSelect` callback to react to tapping on a given row item.
 open class GridCollectionDataSource<T, Cell: UICollectionViewCell>: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
+    
     var layout: GridLayout
     
     var grid: Grid<T>

@@ -39,10 +39,22 @@ public struct Grid<T> {
 }
 
 public struct Row<T> {
-    
+
+    /// The title for the row.
+    ///
+    /// Useful for table and collection view section management.
     public let title: String?
+    
+    /// The items in the row.
+    ///
+    /// Generic and designed to pair with a custom Cell
     public let items: [T]
     
+    /// Designated Initalizer. Rows work like sections in Table and Collection views.
+    ///
+    /// - Parameters:
+    ///   - title: The title for the row.
+    ///   - items: An array of items for the row.
     public init(title: String? = nil, items: [T]) {
         self.title = title
         self.items = items
