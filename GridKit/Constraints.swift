@@ -28,7 +28,7 @@ extension UIView {
     /// Constrains a view's edges to another view's edges.
     ///
     /// - parameter otherView: the view and rect to contrain each edge to
-    public func constrainEdges(toMarginOf otherView: UIView) {
+    func constrainEdges(toMarginOf otherView: UIView) {
         translatesAutoresizingMaskIntoConstraints = false
         
         topAnchor.constraint(equalTo: otherView.topAnchor).isActive = true
@@ -42,9 +42,9 @@ extension UIView {
 extension UIEdgeInsets {
     
     /// Total horizontal left and right spacing on insets
-    var horizontalSpacing: CGFloat { return self.left + self.right }
+    public var horizontalSpacing: CGFloat { return self.left + self.right }
     
     /// Total vertical top and bottom spacing on insets
-    var verticalSpacing: CGFloat { return self.top + self.bottom }
+    public var verticalSpacing: CGFloat { return self.top + self.bottom }
 }
 

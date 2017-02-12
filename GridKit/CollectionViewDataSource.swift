@@ -8,6 +8,12 @@
 
 import UIKit
 
+
+/// A generic data source that when applied to a `UICollectionView` creates horizontal scrolling rows.
+///
+/// Accepts a simple `Grid<T>` object to form the elements in the rows.
+///
+/// Set the `didSelect` callback to react to tapping on a given row item.
 open class GridCollectionDataSource<T, Cell: UICollectionViewCell>: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     var layout: GridLayout

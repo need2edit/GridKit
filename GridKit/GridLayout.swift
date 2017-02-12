@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+
+/// Controls the appearance of the Grid with size attributes, fonts, and colors.
 public struct GridLayout {
     
     public let tintColor: UIColor
