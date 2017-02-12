@@ -1,0 +1,271 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/CollectionViewDataSource.swift",
+      "line": 25,
+      "symbol": "GridCollectionDataSource.didSelect",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/CollectionViewDataSource.swift",
+      "line": 27,
+      "symbol": "GridCollectionDataSource.init(collectionView:layout:grid:configure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/CollectionViewDataSource.swift",
+      "line": 44,
+      "symbol": "GridCollectionDataSource.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/CollectionViewDataSource.swift",
+      "line": 48,
+      "symbol": "GridCollectionDataSource.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/CollectionViewDataSource.swift",
+      "line": 52,
+      "symbol": "GridCollectionDataSource.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/CollectionViewDataSource.swift",
+      "line": 63,
+      "symbol": "GridCollectionDataSource.collectionView(_:layout:sizeForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/CollectionViewDataSource.swift",
+      "line": 67,
+      "symbol": "GridCollectionDataSource.collectionView(_:layout:minimumLineSpacingForSectionAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/CollectionViewDataSource.swift",
+      "line": 71,
+      "symbol": "GridCollectionDataSource.collectionView(_:layout:insetForSectionAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/CollectionViewDataSource.swift",
+      "line": 75,
+      "symbol": "GridCollectionDataSource.collectionView(_:layout:minimumInteritemSpacingForSectionAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/Grid.swift",
+      "line": 41,
+      "symbol": "Row",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/Grid.swift",
+      "line": 43,
+      "symbol": "Row.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/Grid.swift",
+      "line": 44,
+      "symbol": "Row.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/Grid.swift",
+      "line": 46,
+      "symbol": "Row.init(title:items:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/GridLayout.swift",
+      "line": 16,
+      "symbol": "GridLayout.tintColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/GridLayout.swift",
+      "line": 18,
+      "symbol": "GridLayout.highlightColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/GridLayout.swift",
+      "line": 20,
+      "symbol": "GridLayout.rowWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/GridLayout.swift",
+      "line": 21,
+      "symbol": "GridLayout.rowHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/GridLayout.swift",
+      "line": 23,
+      "symbol": "GridLayout.sectionHeaderFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/GridLayout.swift",
+      "line": 24,
+      "symbol": "GridLayout.sectionHeaderTextColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/GridLayout.swift",
+      "line": 26,
+      "symbol": "GridLayout.backgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/GridLayout.swift",
+      "line": 28,
+      "symbol": "GridLayout.init(tintColor:highlightColor:rowWidth:rowHeight:sectionHeaderFont:sectionHeaderTextColor:backgroundColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/RegisterCellHelpers.swift",
+      "line": 13,
+      "symbol": "UICollectionView.register(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/RegisterCellHelpers.swift",
+      "line": 18,
+      "symbol": "UICollectionView.registerSupplementaryViewOfKind(_:kind:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/RegisterCellHelpers.swift",
+      "line": 24,
+      "symbol": "UICollectionView.dequeueReusableCell(forIndexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/RegisterCellHelpers.swift",
+      "line": 33,
+      "symbol": "UICollectionView.dequeueReusableSupplementaryViewOfKind(forIndexPath:kind:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/RegisterCellHelpers.swift",
+      "line": 42,
+      "symbol": "UITableView.register(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/RegisterCellHelpers.swift",
+      "line": 45,
+      "symbol": "UITableView.dequeueReusableCell(forIndexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/ScrollingRowCell.swift",
+      "line": 11,
+      "symbol": "ScrollingRowCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/ScrollingRowCell.swift",
+      "line": 23,
+      "symbol": "ScrollingRowCell.didSelect",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/ScrollingRowCell.swift",
+      "line": 65,
+      "symbol": "ScrollingRowCell.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/ScrollingRowCell.swift",
+      "line": 69,
+      "symbol": "ScrollingRowCell.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/ScrollingRowCell.swift",
+      "line": 73,
+      "symbol": "ScrollingRowCell.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/ScrollingRowCell.swift",
+      "line": 77,
+      "symbol": "ScrollingRowCell.collectionView(_:layout:sizeForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/ScrollingRowCell.swift",
+      "line": 81,
+      "symbol": "ScrollingRowCell.collectionView(_:layout:minimumLineSpacingForSectionAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/ScrollingRowCell.swift",
+      "line": 85,
+      "symbol": "ScrollingRowCell.collectionView(_:layout:minimumInteritemSpacingForSectionAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/ScrollingRowCell.swift",
+      "line": 89,
+      "symbol": "ScrollingRowCell.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/ScrollingRowCell.swift",
+      "line": 96,
+      "symbol": "ScrollingRowCell.collectionView(_:layout:insetForSectionAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit/GridKit/ScrollingRowCell.swift",
+      "line": 100,
+      "symbol": "ScrollingRowCell.collectionView(_:didSelectItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/jyo/Library/Mobile Documents/com~apple~CloudDocs/Swift/Community Contributions/GridKit"
+}

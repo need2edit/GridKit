@@ -133,17 +133,33 @@
 			children = (
 				3215A8AA1E4FF2D700F0468A /* AppDelegate.swift */,
 				3215A8D31E502FA200F0468A /* BaseViewController.swift */,
-				3215A8AC1E4FF2D700F0468A /* NetflixViewController.swift */,
-				3215A8D11E502E8400F0468A /* AppStoreViewController.swift */,
 				3215A8CF1E502AA600F0468A /* DemoLayouts.swift */,
-				3215A8CB1E5016F700F0468A /* FullImageCell.swift */,
-				3215A8CD1E5021DD00F0468A /* AppCell.swift */,
+				3215A8D51E50340B00F0468A /* Netflix Demo */,
+				3215A8D61E50341500F0468A /* App Store Demo */,
 				3215A8AE1E4FF2D700F0468A /* Main.storyboard */,
 				3215A8B11E4FF2D700F0468A /* Assets.xcassets */,
 				3215A8B31E4FF2D700F0468A /* LaunchScreen.storyboard */,
 				3215A8B61E4FF2D700F0468A /* Info.plist */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		3215A8D51E50340B00F0468A /* Netflix Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3215A8AC1E4FF2D700F0468A /* NetflixViewController.swift */,
+				3215A8CB1E5016F700F0468A /* FullImageCell.swift */,
+			);
+			name = "Netflix Demo";
+			sourceTree = "<group>";
+		};
+		3215A8D61E50341500F0468A /* App Store Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3215A8D11E502E8400F0468A /* AppStoreViewController.swift */,
+				3215A8CD1E5021DD00F0468A /* AppCell.swift */,
+			);
+			name = "App Store Demo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
