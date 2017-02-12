@@ -14,7 +14,7 @@
     <a title="GridLayout Struct Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (19% documented)</p>
+        <p><a href="../index.html"> Docs</a> (43% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -100,14 +100,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Overall color for UI elements.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GridLayout</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">tintColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
 
                         </div>
                       </div>
@@ -127,14 +127,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>A branded color, used to emphasize important elements.</p>
+
+<p>For example, Netflix uses a bright red color to highlight items on a dark gray backround.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GridLayout</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">highlightColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
 
                         </div>
                       </div>
@@ -144,9 +146,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:vV7GridKit10GridLayout8rowWidthV12CoreGraphics7CGFloat"></a>
-                    <a name="//apple_ref/swift/Property/rowWidth" class="dashAnchor"></a>
-                    <a class="token" href="#/s:vV7GridKit10GridLayout8rowWidthV12CoreGraphics7CGFloat">rowWidth</a>
+                    <a name="/s:vV7GridKit10GridLayout9itemWidthV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/itemWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV7GridKit10GridLayout9itemWidthV12CoreGraphics7CGFloat">itemWidth</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -154,14 +156,47 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The width of items in a row.</p>
+
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    All items expand to the height of the row.
+
+</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GridLayout</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">itemWidth</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vV7GridKit10GridLayout11itemSpacingV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/itemSpacing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vV7GridKit10GridLayout11itemSpacingV12CoreGraphics7CGFloat">itemSpacing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The distance between each item in the row.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">itemSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
 
                         </div>
                       </div>
@@ -181,14 +216,20 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The height of rows in the collection.</p>
+
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    All items expand to the height of the row.
+
+</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GridLayout</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">rowHeight</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
 
                         </div>
                       </div>
@@ -208,14 +249,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Font for styling the section header labels in each row.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GridLayout</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">sectionHeaderFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
 
                         </div>
                       </div>
@@ -235,14 +276,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Color of the section header label in each row.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GridLayout</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">sectionHeaderTextColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
 
                         </div>
                       </div>
@@ -262,14 +303,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Overall background color. Used to set the background color of the collection and each row.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GridLayout</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">backgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
 
                         </div>
                       </div>
@@ -279,9 +320,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FV7GridKit10GridLayoutcFT9tintColorCSo7UIColor14highlightColorS1_8rowWidthV12CoreGraphics7CGFloat9rowHeightS3_17sectionHeaderFontCSo6UIFont22sectionHeaderTextColorS1_15backgroundColorS1__S0_"></a>
-                    <a name="//apple_ref/swift/Method/init(tintColor:highlightColor:rowWidth:rowHeight:sectionHeaderFont:sectionHeaderTextColor:backgroundColor:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FV7GridKit10GridLayoutcFT9tintColorCSo7UIColor14highlightColorS1_8rowWidthV12CoreGraphics7CGFloat9rowHeightS3_17sectionHeaderFontCSo6UIFont22sectionHeaderTextColorS1_15backgroundColorS1__S0_">init(tintColor:highlightColor:rowWidth:rowHeight:sectionHeaderFont:sectionHeaderTextColor:backgroundColor:)</a>
+                    <a name="/s:FV7GridKit10GridLayoutcFT9tintColorCSo7UIColor14highlightColorS1_9itemWidthV12CoreGraphics7CGFloat11itemSpacingS3_9rowHeightS3_17sectionHeaderFontCSo6UIFont22sectionHeaderTextColorS1_15backgroundColorS1__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(tintColor:highlightColor:itemWidth:itemSpacing:rowHeight:sectionHeaderFont:sectionHeaderTextColor:backgroundColor:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FV7GridKit10GridLayoutcFT9tintColorCSo7UIColor14highlightColorS1_9itemWidthV12CoreGraphics7CGFloat11itemSpacingS3_9rowHeightS3_17sectionHeaderFontCSo6UIFont22sectionHeaderTextColorS1_15backgroundColorS1__S0_">init(tintColor:highlightColor:itemWidth:itemSpacing:rowHeight:sectionHeaderFont:sectionHeaderTextColor:backgroundColor:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -289,16 +330,146 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Designated initializer. Controls overall styling for the grid system.</p>
+
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>A great way to take advantage of this layout is to extend <code>GridLayout</code> with static properties matching your different use cases. The demo included with this framework provides 3 static properties for layouts resembling the App Store, Netflix, and HBONow apps. While these are included for demo purposes, respect the work and don&rsquo;t copy.</p>
+
+</div>
+
+<p><li><p>Parameters:</p></p>
+
+<p><ul>
+<li>tintColor: The overall tint color for the UI elements.</li>
+<li>highlightColor: A branded color, used to emphasize important elements.</li>
+<li>itemWidth: The width of items in a row.</li>
+<li>itemSpacing: The distance between each item in the row.</li>
+<li>rowHeight: The height of rows in the collection.</li>
+<li>sectionHeaderFont: Font for styling the section header labels in each row.</li>
+<li>sectionHeaderTextColor: Color of the section header label in each row.</li>
+<li>backgroundColor: Overall background color. Used to set the background color of the collection and each row.</li>
+</ul></li></p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GridLayout</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">tintColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">highlightColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">itemWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">itemSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">rowHeight</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">sectionHeaderFont</span><span class="p">:</span> <span class="kt">UIFont</span> <span class="o">=</span> <span class="kt">UIFont</span><span class="o">.</span><span class="nf">boldSystemFont</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="mi">16</span><span class="p">),</span> <span class="nv">sectionHeaderTextColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">backgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>tintColor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The overall tint color for the UI elements.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>highlightColor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A branded color, used to emphasize important elements.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>itemWidth</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The width of items in a row.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>itemSpacing</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The distance between each item in the row.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rowHeight</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The height of rows in the collection.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sectionHeaderFont</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Font for styling the section header labels in each row.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sectionHeaderTextColor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Color of the section header label in each row.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>backgroundColor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Overall background color. Used to set the background color of the collection and each row.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
