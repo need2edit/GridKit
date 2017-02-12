@@ -74,6 +74,7 @@
 		3215A8CF1E502AA600F0468A /* DemoLayouts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoLayouts.swift; sourceTree = "<group>"; };
 		3215A8D11E502E8400F0468A /* AppStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreViewController.swift; sourceTree = "<group>"; };
 		3215A8D31E502FA200F0468A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3215A8D71E51245D00F0468A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 		3215A8891E4FF14800F0468A = {
 			isa = PBXGroup;
 			children = (
+				3215A8D71E51245D00F0468A /* README.md */,
 				3215A8951E4FF14800F0468A /* GridKit */,
 				3215A8A91E4FF2D700F0468A /* Demo */,
 				3215A8941E4FF14800F0468A /* Products */,
@@ -520,6 +522,7 @@
 				3215A89D1E4FF14800F0468A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3215A8B71E4FF2D700F0468A /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +531,7 @@
 				3215A8B91E4FF2D700F0468A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
