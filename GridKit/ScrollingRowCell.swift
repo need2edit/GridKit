@@ -20,6 +20,7 @@ public class ScrollingRowCell<T, Cell: UICollectionViewCell>: UICollectionViewCe
     
     // MARK: - Layout & Formatting
     
+    /// Controls the styling for the scrolling row. Works in conjunction with the cell's layout to configure the overall appearance.
     var layout: GridLayout! {
         didSet {
             itemsCollectionView.backgroundColor = layout.backgroundColor

@@ -13,7 +13,7 @@
     <a title="Classes  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html"> Docs</a> (43% documented)</p>
+        <p><a href="index.html"> Docs</a> (50% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -93,9 +93,23 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Manages a list of items scrolling horizontally.</p>
+
+<p>Scrolling rows have a title label and list of items as a <code>UICollectionView</code>.</p>
+
+<p><code>ScrollingRowCell</code>s automatically register a custom <code>UICollectionViewCell</code> and pass through UICollectionViewDataSource methods via callbacks.</p>
+
+<p>The system works by passing a <code>didSelect</code> callback from the parent view controller. This callback is fired during the <code>UICollectionViewDelegate</code> didSelectItemAt:indexPath method.</p>
 
                         <a href="Classes/ScrollingRowCell.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ScrollingRowCell</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">,</span> <span class="kt">Cell</span><span class="p">:</span> <span class="kt">UICollectionViewCell</span><span class="o">&gt;</span><span class="p">:</span> <span class="kt">UICollectionViewCell</span><span class="p">,</span> <span class="kt">UICollectionViewDataSource</span><span class="p">,</span> <span class="kt">UICollectionViewDelegate</span><span class="p">,</span> <span class="kt">UICollectionViewDelegateFlowLayout</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>

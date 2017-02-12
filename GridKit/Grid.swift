@@ -38,6 +38,12 @@ public struct Grid<T> {
     
 }
 
+
+/// A generic section within a Grid. Accepts an array of items of type `T`.
+///
+/// Manages a list of items that scroll horizontally.
+///
+/// When used in a `Grid<T>`, all the rows inherit the generic type `T`. This ensures that a Grid is a collection of all the same type. 
 public struct Row<T> {
 
     /// The title for the row.
